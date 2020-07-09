@@ -1,0 +1,242 @@
+.content-wrapper {
+    /* These styles are required for the "scroll-over" effect */
+    position: absolute;
+    top: 87%;
+    width: 100%;
+    min-height: 12%;
+    z-index: 2;
+    background: white;
+  
+  }
+  
+  /* We want to give the content area some more padding */
+  .content {
+    padding: 1em 1em 3em;
+  }
+  
+  /* This is the class used for the main content headers (<h2>) */
+  .content-head {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 2em 0 1em;
+  }
+  
+  /* This is a modifier class used when the content-head is inside a ribbon */
+  .content-head-ribbon {
+    color: white;
+  }
+  
+  /* This is the class used for the content sub-headers (<h3>) */
+  .content-subhead {
+    color: #1f8dd6;
+  }
+    .content-subhead i {
+        margin-right: 7px;
+    }
+  
+  /* This is the class used for the dark-background areas. */
+  .ribbon {
+    background: #1ebea5;
+    color: White;
+    opacity:0.5;
+    box-shadow: 0 10px 10px #808888;
+    
+  }
+
+  .Appfeatures{
+    align-items: center;
+    display: flex;
+  }
+  .AppfeaturesFounder{
+    background-color: #1ebea5;
+    align-items: center;
+    display: flex;
+    opacity: 0.5;
+  }
+
+
+  @media (min-width: 48em) {
+  
+    /* We increase the body font size */
+    body {
+        font-size: 16px;
+    }
+  
+    /* We can align the menu header to the left, but float the
+    menu items to the right. */
+    .home-menu {
+        text-align: left;
+    }
+        .home-menu ul {
+            float: right;
+        }
+  
+    /* We increase the height of the splash-container */
+  /*    .splash-container {
+        height: 500px;
+    }*/
+  
+    /* We decrease the width of the .splash, since we have more width
+    to work with */
+    .splash {
+        width: 50%;
+        height: 50%;
+    }
+  
+    .splash-head {
+        font-size: 250%;
+    }
+  
+  
+    /* We remove the border-separator assigned to .l-box-lrg */
+    .l-box-lrg {
+        border: none;
+    }
+  
+  }
+
+  @keyframes intro {
+    0% {
+      opacity:0;
+   }
+   100% {
+      opacity:1;
+   }
+ }
+ @keyframes swag1 {
+    0% {
+      top:50px;
+      left:50px;
+      width:8px;
+   }
+   50% {
+     width:30px;
+     opacity:1;
+   }
+   100% {
+      top:20px;
+      left:20px;
+      width:8px;
+      opacity:1;
+   }
+ }
+ @keyframes swag1-out {
+    0% {
+      top:20px;
+      left:20px;
+      width:8px;
+   }
+   50% {
+      width:30px;
+     opacity:1;
+   }
+   100% {
+      top:50px;
+      left:50px;
+      width:8px;
+     opacity:0;
+   }
+ }
+ @keyframes swag2 {
+    0% {
+      top:50px;
+      right:50px;
+      width:8px;
+   }
+   50% {
+     width:30px;
+     opacity:1;
+   }
+   100% {
+      top:20px;
+      right:20px;
+      width:8px;
+      opacity:1;
+   }
+ }
+ @keyframes swag2-out {
+    0% {
+      top:20px;
+      right:20px;
+      width:8px;
+   }
+   50% {
+      width:30px;
+     opacity:1;
+   }
+   100% {
+      top:50px;
+      right:50px;
+      width:8px;
+     opacity:0;
+   }
+ }
+ @keyframes swag3 {
+    0% {
+      bottom:50px;
+      left:50px;
+      width:8px;
+   }
+   50% {
+     width:30px;
+     opacity:1;
+   }
+   100% {
+      bottom:20px;
+      left:20px;
+      width:8px;
+      opacity:1;
+   }
+ }
+ @keyframes swag3-out {
+    0% {
+      bottom:20px;
+      left:20px;
+      width:8px;
+   }
+   50% {
+      width:30px;
+     opacity:1;
+   }
+   100% {
+      bottom:50px;
+      left:50px;
+      width:8px;
+     opacity:0;
+   }
+ }
+ @keyframes swag4 {
+    0% {
+      bottom:50px;
+      right:50px;
+      width:8px;
+   }
+   50% {
+     width:30px;
+     opacity:1;
+   }
+   100% {
+      bottom:20px;
+      right:20px;
+      width:8px;
+      opacity:1;
+   }
+ }
+ @keyframes swag4-out {
+    0% {
+      bottom:20px;
+      right:20px;
+      width:8px;
+   }
+   50% {
+      width:30px;
+     opacity:1;
+   }
+   100% {
+      bottom:50px;
+      right:50px;
+      width:8px;
+     opacity:0;
+   }
+ }
