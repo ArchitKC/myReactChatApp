@@ -5,8 +5,8 @@ import  './Header.css';
 
 const header = (props)=>{
   return(           
-      <header class="header-login-signup">
-        <div class="header-limiter">
+      <header className="header-login-signup">
+        <div className="header-limiter">
           <h1>
             <Link to="/">Coding<span>Cafe</span></Link>
           </h1>

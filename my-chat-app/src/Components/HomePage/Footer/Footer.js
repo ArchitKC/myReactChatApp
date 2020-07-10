@@ -17,7 +17,7 @@ Copyright=()=>{
 render(){
   return (
     <footer>
-      <div class="footer l-box is-center">
+      <div className="footer l-box is-center">
                {this.Copyright()}
         </div>
     </footer>
